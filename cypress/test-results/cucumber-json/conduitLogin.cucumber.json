@@ -1,0 +1,71 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Conduit Login Functionality",
+    "line": 1,
+    "id": "conduit-login-functionality",
+    "tags": [],
+    "uri": "conduitLogin.feature",
+    "elements": [
+      {
+        "id": "conduit-login-functionality;login-and-logout-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Login and Logout with Valid Credentials",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 1334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User login with valid credentials",
+            "result": {
+              "status": "passed",
+              "duration": 968000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User click on the settings button",
+            "result": {
+              "status": "failed",
+              "duration": 306000000,
+              "error_message": "TypeError: The following error originated from your application code, not from Cypress. It was caused by an unhandled promise rejection.\n\n  > Cannot read properties of undefined (reading 'body')\n\nWhen Cypress detects uncaught errors originating from your application it will automatically fail the current test.\n\nThis behavior is configurable, and you can choose to turn this off by listening to the `uncaught:exception` event.\n    at <unknown> (https://react-redux.realworld.io/main.js:28244:44)\nFrom previous event:\n    at Promise.longStackTracesCaptureStackTrace [as _captureStackTrace] (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:3486:19)\n    at Promise._then (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:1239:17)\n    at Promise._passThrough (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:4110:17)\n    at Promise.lastly.Promise.finally (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:4119:17)\n    at Object.onRunnableRun (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:163180:53)\n    at $Cypress.action (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:41458:28)\n    at Runnable.run (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:145768:13)\n    at next (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:155553:10)\n    at https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:155597:5\n    at timeslice (https://react-redux.realworld.io/__cypress/runner/cypress_runner.js:146108:27)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "User click on the logout button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "User should be routed back to login page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

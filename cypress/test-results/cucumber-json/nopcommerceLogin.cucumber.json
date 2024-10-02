@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Fill the form in querying page with email and password",
+    "line": 1,
+    "id": "fill-the-form-in-querying-page-with-email-and-password",
+    "tags": [],
+    "uri": "nopcommerceLogin.feature",
+    "elements": [
+      {
+        "id": "fill-the-form-in-querying-page-with-email-and-password;enter-the-email-and-password-in-the-form",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Enter the email and password in the form",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "User is on the login page",
+            "result": {
+              "status": "passed",
+              "duration": 481000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "User click on commands dropdown and select the querying option",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "User fill the form details",
+            "result": {
+              "status": "passed",
+              "duration": 1122000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "User should be able to see the entered details on form",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
